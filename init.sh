@@ -2,6 +2,8 @@
 
 # TODO: read-def
 
+git config --global credential.helper cache
+
 user_name=$(git config --global user.name)
 echo -n "git config --global user.name: (default = $user_name) "
 read user_name 
